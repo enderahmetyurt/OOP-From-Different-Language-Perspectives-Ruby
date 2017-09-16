@@ -1,4 +1,5 @@
 require_relative 'car'
+require_relative 'util'
 
 car1 = Car.new("Mercedes", "C2000", "2017")
 car1.distance = 0
@@ -18,3 +19,5 @@ puts car2.get_info
 car1.accelerate(220)
 car1.go(150)
 puts car1.get_info
+
+Util.wash_car(car1);
