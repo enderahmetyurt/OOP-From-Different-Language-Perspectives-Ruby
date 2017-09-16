@@ -1,5 +1,5 @@
-require_relative '../basic/car.rb'
-require_relative 'f1_car.rb'
+require_relative '../basic/car'
+require_relative 'f1_car'
 
 car1 = Car.new("Mercedes", "C2000", "2017")
 car1.distance = 0

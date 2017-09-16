@@ -1,4 +1,4 @@
-require_relative '../basic/car.rb'
+require_relative '../basic/car'
 
 class F1Car < Car
   attr_accessor :pilot
