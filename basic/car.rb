@@ -1,7 +1,5 @@
 class Car
-  attr_accessor :distance
-  attr_accessor :speed
-  private :speed
+  attr_accessor :distance, :make, :model, :year, :speed
 
   def initialize(make, model, year)
     @make  = make
